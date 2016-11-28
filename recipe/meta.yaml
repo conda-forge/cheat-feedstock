@@ -1,6 +1,6 @@
 {% set name = "cheat" %}
-{% set version = "2.1.26" %}
-{% set sha256 = "f5f6d86e7c1c3eb6c595156b534bc2a0305bd3a3433e20e0e78952a356aa347a" %}
+{% set version = "2.1.27" %}
+{% set sha256 = "0db3cf8ee3f1a3e5e817d630349f258a08f77bf759c2e9a8025aed481a7739d7" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ test:
 about:
   home: https://github.com/chrisallenlane/cheat
   license: MIT/GPL3
-  # license_file: LICENSE # When added to MANIFEST.in – chrisallenlane/cheat#291
+  license_file: LICENSE
   summary: 'cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.'
   dev_url: https://github.com/chrisallenlane/cheat
 
