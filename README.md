@@ -11,6 +11,18 @@ Summary: cheat allows you to create and view interactive cheatsheets on the comm
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cheat-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cheat-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cheat-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cheat-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cheat-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cheat-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cheat/badges/version.svg)](https://anaconda.org/conda-forge/cheat)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cheat/badges/downloads.svg)](https://anaconda.org/conda-forge/cheat)
+
 Installing cheat
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `cheat` available on your platform
 ```
 conda search cheat --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cheat-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cheat-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cheat-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cheat-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cheat-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cheat-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cheat/badges/version.svg)](https://anaconda.org/conda-forge/cheat)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cheat/badges/downloads.svg)](https://anaconda.org/conda-forge/cheat)
 
 
 Updating cheat-feedstock
