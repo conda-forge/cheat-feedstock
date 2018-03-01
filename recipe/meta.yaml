@@ -1,6 +1,6 @@
 {% set name = "cheat" %}
-{% set version = "2.1.27" %}
-{% set sha256 = "0db3cf8ee3f1a3e5e817d630349f258a08f77bf759c2e9a8025aed481a7739d7" %}
+{% set version = "2.2.3" %}
+{% set sha256 = "d42df12cc42934a7e29c733d5938655ce7f4890af82b6facd8804d5932db542a" %}
 
 package:
   name: {{ name|lower }}
