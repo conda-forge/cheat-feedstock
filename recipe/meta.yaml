@@ -1,6 +1,6 @@
 {% set name = "cheat" %}
-{% set version = "2.2.3" %}
-{% set sha256 = "d42df12cc42934a7e29c733d5938655ce7f4890af82b6facd8804d5932db542a" %}
+{% set version = "2.4.1" %}
+{% set sha256 = "956fc9fead884da5b007176ed8d3489c962729b21ce11d387e59f88269f6bb3c" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
